@@ -5,7 +5,7 @@ function clickfunction(){
   const std_age = document.getElementById('stdage')
   const message = document.getElementById('message')
 
-  if(std_age.value !== ''){
+  if(std_name.value !== '' && std_age.value !== ''){
    if(std_age.value < 20){
      message.innerHTML = `Student name is ${std_name.value} & age less than 20`
    }
