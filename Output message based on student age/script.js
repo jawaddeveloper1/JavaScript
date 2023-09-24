@@ -17,7 +17,7 @@ function clickfunction(){
    }
   }
   else{
-   alert('Please fill up both fields')
+     message.innerHTML = 'Please fill up both fields'
   }
   
 }
