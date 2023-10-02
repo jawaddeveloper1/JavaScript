@@ -1,0 +1,23 @@
+.main-container{
+    max-width: 335px;
+	margin-top: 150px;
+	background: #f7f7f7;
+	padding: 20px;
+}
+
+input{
+	height: 50px;
+}
+
+button{
+    width: 70px;
+    height: 45px;
+}
+
+.button-row-1 button{
+	width: 295px;
+}
+
+.button-row{
+	margin-top: 10px;
+}
