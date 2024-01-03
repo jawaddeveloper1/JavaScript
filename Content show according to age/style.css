@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	max-width: 30%;
+	margin: auto;
+	font-family: 'Roboto';
+}
+
+.form{
+	text-align: center;
+}
+
+input{
+	width: 100%;
+	margin-top: 15px;
+	padding: 10px;
+	height: 40px;
+}
+
+input:first-child{
+	margin-top: 0;
+}
+
+input[type="submit"]{
+	background: black;
+	color: white;
+	padding: 10px 30px;
+}
+
+.content{
+	display: none;
+}
