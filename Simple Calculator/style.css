@@ -1,0 +1,45 @@
+body{
+    width: 300px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.cal_wrapper{
+    background-color: #d2d2d2;
+    padding: 15px;
+}
+
+.tophead{
+    display: flex;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+.calrows{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.calrows button{
+    margin-left: 5px;
+}
+
+.calrows button:first-child{
+    margin-left: 0;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    width: 100px;
+    border: none;
+}
